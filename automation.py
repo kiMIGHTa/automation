@@ -480,14 +480,14 @@ if __name__ == "__main__":
     # Example 1: Send individual email
     print("1. Sending individual email...")
     automation.send_email(
-        "kimaitaduzit@gmail.com",
+        "your-email@email.com",
         "Test Subject",
         "This is a test email from the automation system."
     )
 
     # Example 2: Send individual SMS
     print("2. Sending individual SMS...")
-    automation.send_sms("+254769375587", "Test SMS from automation system")
+    automation.send_sms("+254700000000", "Test SMS from automation system")
 
     # Example 3: Export data to Excel
     print("3. Exporting data to Excel...")
