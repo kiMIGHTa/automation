@@ -1,0 +1,19 @@
+{
+    "email": {
+                "smtp_server": "smtp.gmail.com",
+                "smtp_port": 587,
+                "email": "your-gmail-here",
+                "password": "your-app-password-here"
+            },
+            "sms": {
+                "provider": "bulksms",
+                "username": "your-bulksms-username",
+                "password": "your-bulk-sms-password",
+               
+                "api_url": "https://api.bulksms.com/v1/messages"
+            },
+            "export": {
+                "output_directory": "downloads",
+                "filename_prefix": "business_data"
+            }
+}
